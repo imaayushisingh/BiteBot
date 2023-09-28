@@ -1,0 +1,43 @@
+{
+  "id": "a0bb0695-08f1-4864-bf03-72ebd099f435",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hello, How can I help you? You can say \"New Order\" to place a new order or \"Track Order\" to track your order!",
+            "Greetings! How may I assist you today? You have the option to say \u0027New Order\u0027 for placing a fresh order or \u0027Track Order\u0027 to check the status of an existing one.",
+            "Greetings! What brings you here today? Let\u0027s get started! Say \u0027New Order\u0027 for a fresh order or \u0027Track Order\u0027 to find out about your current one.",
+            "Hello, hungry one! What\u0027s on your mind? You can either say \u0027New Order\u0027 to order something delicious or \u0027Track Order\u0027 to follow your existing order.",
+            "Hi there! How can I assist you today? The choice is yours: \u0027New Order\u0027 if you\u0027re hungry for something new, or \u0027Track Order\u0027 to see where your current order stands."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
