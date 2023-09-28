@@ -2,9 +2,9 @@
 End to end Chatbot project --> frontend using html and css, backend using python and fastapi, chatbot using dialogflow which uses concepts of NLP, all of this interacts with MySQL database
 
 ## Directory structure
-Backend: Contains Python FastAPI backend code
-Dtabase: contains the dump of the database. you need to import this into your MySQL db by using MySQL workbench tool
-Frontend: website code
+1. Backend: Contains Python FastAPI backend code
+2. Database: contains the dump of the database. you need to import this into your MySQL db by using MySQL workbench tool
+3. Frontend: website code
 
 ## Install these modules
 pip install mysql-connector
