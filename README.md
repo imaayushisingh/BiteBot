@@ -16,7 +16,10 @@ This is an end-to-end chatbot project that combines various technologies to crea
 
 ## To start fastapi backend server
 - Go to backend directory in your command prompt
-- Run this command: ```uvicorn main:app --reload```
+- Run this command:
+  ```bash
+  uvicorn main:app --reload
+  ```
 
 ## ngrok for https tunneling
 - To install ngrok, go to https://ngrok.com/download and install ngrok version that is suitable for your OS
