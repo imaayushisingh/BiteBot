@@ -1,0 +1,38 @@
+{
+  "id": "c5f48a7c-4ab6-4fd9-b210-6787d970a600",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I\u0027m sorry, I didn\u0027t catch that. To place a new order, please choose from our menu: Pav Bhaji, Chole Bhature, Pizza, Mango Lassi, Masala Dosa, Biryani, Vada Pav, Rava Dosa, and Samosa. Specify the quantity for each item, like \u0027One pizza and 2 chole bhature\u0027.",
+            "\"Could you please repeat that? I didn\u0027t quite get it. If you\u0027re ready to order, here\u0027s our menu: Pav Bhaji, Chole Bhature, Pizza, Mango Lassi, Masala Dosa, Biryani, Vada Pav, Rava Dosa, and Samosa. Simply let me know the quantity for each item, such as \u0027Two samosas and a mango lassi\u0027.",
+            "I\u0027m not sure I understood. Could you clarify? Ready to order some delicious food? Our menu includes Pav Bhaji, Chole Bhature, Pizza, Mango Lassi, Masala Dosa, Biryani, Vada Pav, Rava Dosa, and Samosa. Just tell me the quantity for each item, for example, \u0027Two pizzas and a samosa\u0027.",
+            "My apologies, I didn\u0027t grasp what you said. Time to satisfy your cravings! Here\u0027s what\u0027s on the menu: Pav Bhaji, Chole Bhature, Pizza, Mango Lassi, Masala Dosa, Biryani, Vada Pav, Rava Dosa, and Samosa. Specify the quantity for each item you\u0027d like to order, such as \u0027Four chole bhature and a mango lassi\u0027."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
