@@ -1,23 +1,27 @@
 # BiteBot
-End to end Chatbot project --> frontend using html and css, backend using python and fastapi, chatbot using dialogflow which uses concepts of NLP, all of this interacts with MySQL database
+This is an end-to-end chatbot project that combines various technologies to create a functional chatbot. The project includes:
+- Frontend: Developed using HTML and CSS.
+- Backend: Powered by Python and FastAPI.
+- Chatbot: Created using Google Dialogflow, utilizing Natural Language Processing (NLP) concepts.
+- Database: Interaction with a MySQL database.
 
 ## Directory structure
-1. Backend: Contains Python FastAPI backend code
-2. Database: contains the dump of the database. you need to import this into your MySQL db by using MySQL workbench tool
-3. Frontend: website code
+- Backend: Contains Python FastAPI backend code
+- Database: contains the dump of the database. you need to import this into your MySQL db by using MySQL workbench tool
+- Frontend: website code
 
 ## Install these modules
-pip install mysql-connector
-pip install "fastapi[all]"
+- pip install mysql-connector
+- pip install "fastapi[all]"
 
 ## To start fastapi backend server
-1. Go to backend directory in your command prompt
-2. Run this command: uvicorn main:app --reload
+- Go to backend directory in your command prompt
+- Run this command: ```uvicorn main:app --reload```
 
 ## ngrok for https tunneling
-1. To install ngrok, go to https://ngrok.com/download and install ngrok version that is suitable for your OS
-2. Extract the zip file and place ngrok.exe in a folder.
-3. Open windows command prompt, go to that folder and run this command: ngrok http 8000
+- To install ngrok, go to https://ngrok.com/download and install ngrok version that is suitable for your OS
+- Extract the zip file and place ngrok.exe in a folder.
+- Open windows command prompt, go to that folder and run this command: ```ngrok http 8000```
 
 ### NOTE: ngrok can timeout. you need to restart the session if you see session expired message.
 
