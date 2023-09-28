@@ -1,0 +1,42 @@
+{
+  "id": "1b32b208-3afb-4599-9197-46f585bf84e6",
+  "name": "new.order - context: ongoing-order",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ongoing-order",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Great, let\u0027s begin a new order! To get started, just tell me what you\u0027d like, for example, \u0027I want two pizzas and one mango lassi.\u0027 Please remember to specify a quantity for each food item. Our menu includes Pav Bhaji, Chole Bhature, Pizza, Mango Lassi, Masala Dosa, Biryani, Vada Pav, Rava Dosa, and Samosa.",
+            "Awesome, we\u0027re all set to place a fresh order! Simply tell me what you\u0027re craving, like \u0027I\u0027d like 3 biryanis and two samosas.\u0027 Don\u0027t forget to mention the quantity for each item you want. Our menu options are Pav Bhaji, Chole Bhature, Pizza, Mango Lassi, Masala Dosa, Biryani, Vada Pav, Rava Dosa, and Samosa.",
+            "Let\u0027s get your order going! Tell me what you\u0027d like to eat and how many of each item, like \u0027I want one pizza and four samosas.\u0027 You can choose from our menu options: Pav Bhaji, Chole Bhature, Pizza, Mango Lassi, Masala Dosa, Biryani, Vada Pav, Rava Dosa, and Samosa."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
