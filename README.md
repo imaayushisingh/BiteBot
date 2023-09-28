@@ -11,8 +11,14 @@ This is an end-to-end chatbot project that combines various technologies to crea
 - Frontend: website code
 
 ## Install these modules
-- pip install mysql-connector
-- pip install "fastapi[all]"
+- mysql-connector:
+  ```bash
+  pip install mysql-connector
+  ```
+- FastAPI:
+  ```bash
+  pip install fastapi[all]
+  ```
 
 ## To start fastapi backend server
 - Go to backend directory in your command prompt
@@ -24,7 +30,10 @@ This is an end-to-end chatbot project that combines various technologies to crea
 ## ngrok for https tunneling
 - To install ngrok, go to https://ngrok.com/download and install ngrok version that is suitable for your OS
 - Extract the zip file and place ngrok.exe in a folder.
-- Open windows command prompt, go to that folder and run this command: ```ngrok http 8000```
+- Open windows command prompt, go to that folder and run this command:
+  ```bash
+  ngrok http 8000
+  ```
 
 ### NOTE: ngrok can timeout. you need to restart the session if you see session expired message.
 
