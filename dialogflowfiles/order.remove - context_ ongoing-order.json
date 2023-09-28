@@ -1,0 +1,54 @@
+{
+  "id": "bba5d645-a0b7-48fb-9e47-80bb5fede7be",
+  "name": "order.remove - context: ongoing-order",
+  "auto": true,
+  "contexts": [
+    "ongoing-order"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ongoing-order",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ebf3efd6-a9da-4164-b7d4-c6fc9dfc7732",
+          "name": "food-item",
+          "required": false,
+          "dataType": "@Food-item",
+          "value": "$food-item",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
